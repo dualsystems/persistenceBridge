@@ -8,7 +8,7 @@ rm -rf ./ethereum/abi/liquidStaking/liquidStaking.go
 rm -rf ./ethereum/abi/tokenWrapper/tokenWrapper.go
 
 echo "Downloading pStake-smartContracts..."
-git clone git@github.com:persistenceOne/pStake-smartContracts.git
+git clone https://github.com/persistenceOne/pStake-smartContracts.git
 # shellcheck disable=SC2164
 cd pStake-smartContracts
 git checkout "$SMART_CONTRACT_VERSION"
